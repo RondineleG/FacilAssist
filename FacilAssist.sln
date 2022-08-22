@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacilAssist.Core", "src\FacilAssist.Core\FacilAssist.Core.csproj", "{07658441-E777-42DD-A8CA-7ACACDB33538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacilAssist.App", "src\FacilAssist.App\FacilAssist.App.csproj", "{2275A4E3-64F2-4657-883B-2B182DC024D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{6E79F560-5AE6-4E51-932B-74E861784FE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A001E219-8B2B-4E0C-BB34-BA2DC6E36AA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{6055174D-957F-4DE7-9335-3350C2909A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacilAssist.API", "src\FacilAssist.API\FacilAssist.API.csproj", "{0C2385A5-31C7-4846-A44B-A67C4BA46EA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07658441-E777-42DD-A8CA-7ACACDB33538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07658441-E777-42DD-A8CA-7ACACDB33538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07658441-E777-42DD-A8CA-7ACACDB33538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07658441-E777-42DD-A8CA-7ACACDB33538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2275A4E3-64F2-4657-883B-2B182DC024D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2275A4E3-64F2-4657-883B-2B182DC024D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2275A4E3-64F2-4657-883B-2B182DC024D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2275A4E3-64F2-4657-883B-2B182DC024D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2385A5-31C7-4846-A44B-A67C4BA46EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2385A5-31C7-4846-A44B-A67C4BA46EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2385A5-31C7-4846-A44B-A67C4BA46EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2385A5-31C7-4846-A44B-A67C4BA46EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07658441-E777-42DD-A8CA-7ACACDB33538} = {A001E219-8B2B-4E0C-BB34-BA2DC6E36AA5}
+		{2275A4E3-64F2-4657-883B-2B182DC024D5} = {6055174D-957F-4DE7-9335-3350C2909A88}
+		{0C2385A5-31C7-4846-A44B-A67C4BA46EA8} = {6E79F560-5AE6-4E51-932B-74E861784FE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D39905A-470A-4D79-B638-D8BDBED59D96}
+	EndGlobalSection
+EndGlobal
